@@ -1,5 +1,5 @@
-# AST1430
-Materials related to AST1430 at the University of Toronto
+# AST1430-grad-cosmology
+Materials related to the graduate Cosmology course AST1430 at the University of Toronto
 
 ## Table of Contents
 
