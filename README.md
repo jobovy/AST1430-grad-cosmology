@@ -14,7 +14,7 @@ Materials related to the graduate Cosmology course AST1430 at the University of 
 
 * **Instructors**: 
   * Jo Bovy (AB229; jo - dot - bovy - at - utoronto - dot - ca)
-  * Keith Vanderlinde
+  * Keith Vanderlinde (AB126; keith - dot - vanderlinde - at - utoronto - dot - ca)
 
 * **Syllabus**: Full details can be found in the [syllabus](syllabus/syllabus-ast1430.pdf)
 
