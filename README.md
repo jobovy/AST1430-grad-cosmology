@@ -26,8 +26,9 @@ TBD
 
 ## Reading
 
-TBD
+See syllabus.
 
 ## Slides
 
-TBD
+* [Lecture 1](slides/W1_Lecture_01-Basic_Obs.pdf)
+* [Lecture 2](slides/W2_Lecture_02-RW.pdf)
