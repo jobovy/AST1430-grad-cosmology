@@ -22,7 +22,7 @@ Materials related to the graduate Cosmology course AST1430 at the University of 
 
 ## Assignments
 
-* [Assignment 1](assignemnts/assignment1.pdf) Due Jan 31st
+* [Assignment 1](assignments/assignment1.pdf) Due Jan 31st
 
 ## Reading
 
@@ -32,5 +32,5 @@ See syllabus.
 
 * [Lecture 1](slides/W1_Lecture_01-Basic_Obs.pdf)
 * [Lecture 2](slides/W2_Lecture_02-RW.pdf)
-* [Lecture 3](slides/W2_Lecture_03-Friedmanns.pdf)
+* [Lecture 3](slides/W2_Lecture_03-Friedmann.pdf)
 
