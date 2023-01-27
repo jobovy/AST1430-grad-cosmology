@@ -33,6 +33,6 @@ See syllabus.
 * [Lecture 1](slides/W1_Lecture_01-Basic_Obs.pdf)
 * [Lecture 2](slides/W2_Lecture_02-RW.pdf)
 * [Lecture 3](slides/W2_Lecture_03-Friedmann.pdf)
-* [Lecture 4](slides/W2_Lecture_04-ThermalHist1.pdf)
-* [Lecture 5](slides/W2_Lecture_05-ThermalHist2.pdf)
+* [Lecture 4](slides/W3_Lecture_04-ThermalHist1.pdf)
+* [Lecture 5](slides/W3_Lecture_05-ThermalHist2.pdf)
 
