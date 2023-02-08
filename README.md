@@ -37,3 +37,5 @@ See syllabus.
 * [Lecture 5](slides/W3_Lecture_05-ThermalHist2.pdf)
 * [Lecture 6](slides/W4_Lecture_06-Inflation.pdf)
 * [Lecture 7](slides/W4_Lecture_07-Structure1.pdf)
+* [Lecture 8](slides/W5_Lecture_08-CMB1.pdf)
+
