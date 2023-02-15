@@ -29,7 +29,7 @@ Materials related to the graduate Cosmology course AST1430 at the University of 
 
 See syllabus.
 
-* **Week 7**: Growth of structure: [Formation of DM Halos](https://www.astro.utoronto.ca/~bovy/AST1430/bookdraft/chapters/IV-01.-Formation-DM-Halos.html). Specifically, sections 18.1.2, 18.1.3, 18.1.4, 18.1.5, 18.2, 18.3.1, 18.4
+* **Week 7**: Growth of structure: [Formation of DM Halos](https://www.astro.utoronto.ca/~bovy/AST1430/bookdraft/chapters/IV-01.-Formation-DM-Halos.html). Specifically, sections 18.1.2, 18.1.3, 18.1.4, 18.1.5, 18.2.1, 18.3.1, 18.4
 * **Week 8**: Dark matter halos and galaxies: [Hierarchical Galaxy Formation](https://www.astro.utoronto.ca/~bovy/AST1430/bookdraft/chapters/IV-04.-Hierarchical-Galaxy-Formation.html). Specifically, sections 21.2, skim 21.3. Also section 19.2 from [Extragalactic Astronomy](https://www.astro.utoronto.ca/~bovy/AST1430/bookdraft/chapters/IV-02.-Extragalactic-Astronomy.html#Dark-matter-halos-and-their-galaxies).
 
 ## Slides
