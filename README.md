@@ -34,6 +34,8 @@ See syllabus.
 
 ## Slides
 
+Keith:
+
 * [Lecture 1](slides/W1_Lecture_01-Basic_Obs.pdf)
 * [Lecture 2](slides/W2_Lecture_02-RW.pdf)
 * [Lecture 3](slides/W2_Lecture_03-Friedmann.pdf)
@@ -44,3 +46,6 @@ See syllabus.
 * [Lecture 8](slides/W5_Lecture_08-CMB1.pdf)
 * [Lecture 9](slides/W5_Lecture_09-CMB2.pdf)
 
+Jo:
+
+* [Week 7](slides/W7-Growth-of-Structure.pdf)
