@@ -49,3 +49,4 @@ Keith:
 Jo:
 
 * [Week 7](slides/W7-Growth-of-Structure.pdf)
+* [Week 8](slides/W8-DM-halos-and-galaxies.pdf)
