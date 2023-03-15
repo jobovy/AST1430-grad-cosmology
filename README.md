@@ -24,6 +24,7 @@ Materials related to the graduate Cosmology course AST1430 at the University of 
 
 * [Assignment 1](assignments/assignment1.pdf) Due Jan 31st
 * [Assignment 2](assignments/assignment2.pdf) Due Feb 28th
+* [Assignment 3](assignments/assignment3.pdf) Due Mar 31th
 
 ## Reading
 

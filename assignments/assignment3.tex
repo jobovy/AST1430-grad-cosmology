@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{url}
+\urldef\galpyconfig\url{https://docs.galpy.org/en/latest/installation.html#configuration-file}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\begin{center}
+{\bf \LARGE AST1430 ``Cosmology'' Problem Set 3}\\[7pt]
+\emph{Due on Mar. 31 at 5pm}\\[7pt]
+\end{center}
+
+Most of the exercises in this problem set must be solved on a computer
+and the best way to hand in the problem set is as a \texttt{jupyter
+  notebook}. Please email it to me as an attachment. 
+  \emph{Please re-run the entire notebook (with \texttt{Cell
+    > Run All}) after re-starting the notebook kernel before sending it
+  to me}; this will make sure that the input and output are fully
+consistent.
+
+If you are unfamiliar with notebooks, you can also send in a
+traditional write-up (in LaTeX), but you also need to send in
+well-commented code for how you solved the problems. Thus, notebooks
+are strongly preferred :-)\\
+
+\noindent{\bf Problem 1:} The growth of structure.\\
+
+(a) Demonstrate that the ratio of the growth factor $D_+(a)$ to the scale factor $a$ only depends on $a$ through the density parameters $\Omega_i(a)$ evaluated at $a$, by showing that it is given by
+    
+\begin{equation}
+    {D_+(a) \over a} = {5\Omega_{m}(a) \over 2}\,\int_0^1\,\frac{\mathrm{d}x}{\left(x\,\sqrt{\Omega_{m}(a)\,x^{-3} + \Omega_{\Lambda}(a)+\Omega_{r}(a)\,x^{-4}+\Omega_{k}(a)\,x^{-2}}\right)^3}\,.
+\end{equation}
+
+(b) Numerically compute the growth factor $D_+(a)/a$ for an open, matter-only Universe and compare it to that for a flat Universe with the same $\Omega_{0,m}$, but containing dark energy (like our Universe). Use the Planck (2018) value for $\Omega_{0,m}$. Discuss your results.\\
+
+(c) In the study of redshift-space distortions, we saw that the linear growth rate $f \equiv d\ln D_+(a)/d\ln a$ is an important cosmological function. Compute the linear growth rate at $z=0$ for a flat matter+dark-energy Universe as a function of $\Omega_{0,m}$ and compare your numerical result to the often-used approximation $f = \Omega_{m}^{0.55}$.\\
+
+\noindent{\bf Problem 2:} The linear bias of halos.\\
+
+We saw in class that the linear bias of halos with respect to the underlying density field in the Press-Schecther formalism is given by
+
+\begin{equation}
+    b(M) = 1+\left({\nu^2(M)-1\over \delta_c(t)}\right)\,,
+\end{equation}
+
+where $\nu(M) = \delta_c/\sigma(M)$ and $\delta_c(t) \approx 1.686$ is the critical overdensity for collapse. We also saw that in the ellipsoidal collapse framework, the bias is given instead by
+
+\begin{equation}
+    b(M) = 1+{1\over \delta_c(t)}\,\left[\nu'^2 + b\,\nu'^{2-2c}-{\nu'^{2c}/\sqrt{a}\over \nu'^{2c}+b\,(1-c)\,(1-c/2)}\right]\,,
+\end{equation}
+
+where $\nu' = \sqrt{a}\,\nu$ and $a = 0.707$, $b=0.5$, and $c=0.6$.\\
+
+(a) Compute the bias as a function of mass at redshift zero in these two models for halos with masses $10^6\,M_\odot < M < 10^{16}\,M_\odot$ and compare the two models.\\
+
+(b) Explain the reason for the difference between the spherical and ellipsoidal collapse models (see also the next problem!).\\
+
+\noindent{\bf Problem 3:} The halo mass function in the ellipsoidal collapse framework.\\
+
+We discussed how the Sheth \& Tormen (1999) halo mass function provides a better match to that measured in $N$-body simulations than the Press-Schechter one. Here we will derive the approximate form of the Sheth \& Tormen (1999) halo mass function using the EPS formalism with a moving absorbing barrier.\\
+    
+(a) In the EPS formalism using the spherical-collapse picture to describe halo formation, we were able to analytically compute the fraction of mass elements in halos with sizes larger than $R$. However, we can also derive this numerically using large ensembles of simulated random walks in the presence of an absorbing barrier. Derive the cumulative distribution of mass elements in halos with sizes larger than $R$ (thus, with $S < S[R]$) using a large number of random-walk trajectories and compare to Equation (21.11) in the notes.\\
+      
+(b) Sheth et al. (2001) demonstrated that replacing the spherical-collapse picture with a more general framework of ellipsoidal collapse causes the collapse barrier to depend on $S$. Specifically, they found that the spherical-collapse, linear-theory threshold $\delta_\mathrm{sc}(t)$ for collapse changes to a threshold  $\delta_\mathrm{ec}(S,t)$
+       
+\begin{equation}
+    \delta_{\mathrm{ec}}(S,t)= \delta_{\mathrm{sc}}(t)\left(1+0.47\,\left[{S \over \delta_{\mathrm{sc}}^2(t)}\right]^{0.615}\right)\,.
+\end{equation}
+            
+Again derive the cumulative distribution of mass elements in halos with $S < S[R]$ and compare it to the Press-Schechter form of Equation (21.11). The scale dependence results from the fact that tides cause collapse to proceed in an ellipsoidal manner, where collapse is harder to achieve, and tides are less important for the evolution of large, massive halos than for small, low-mass halos. Large halos therefore have $\delta_{\mathrm{ec}}(S,t) \approx \delta_\mathrm{sc}(t)$, while for small halos $\delta_{\mathrm{ec}}(S,t) \gg \delta_\mathrm{sc}(t)$.\\
+          
+(c) Now show that using the form of Equation (18.155) instead of the standard Press-Schechter form of Equation (18.154) provides a much better match to the cumulative distribution of mass elements if we use $\nu'=\nu$. What happens when we use the actual Sheth \& Tormen (1999) form where $\nu' = 0.707\nu$?
+
+\end{document}
