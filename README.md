@@ -54,3 +54,4 @@ Jo:
 * [Week 9](slides/W9-Clustering.pdf)
 * [Week 10](slides/W10-LateTimeConstraints.pdf)
 * [Week 12](slides/W12-H0controversy.pdf)
+* [Review](slides/W12-Review.pdf)
